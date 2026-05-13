@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import slugify from 'slugify';
 import pool from '../config/database';
-import { CreateProjetoDto, PaginatedResult, Projeto } from '..';
+import { CreateProjetoDto, PaginatedResult, Projeto } from '../types';
 import { HttpError } from '../middleware/error';
 
 const slug = (str: string) =>

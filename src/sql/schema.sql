@@ -1,14 +1,14 @@
 -- ============================================================
---  EnerConsult — Base de Dados MySQL
+--  CEEGB — Base de Dados MySQL
 --  Versão: 1.0.0
 --  Charset: utf8mb4 | Engine: InnoDB
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS eletroguin
+CREATE DATABASE IF NOT EXISTS ceegb
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
-USE eletroguin;
+USE ceegb;
 
 -- ── UTILIZADORES (Admin) ─────────────────────────────────────
 CREATE TABLE utilizadores (
@@ -227,7 +227,7 @@ DELIMITER ;
 
 -- Admin padrão  (password: Admin@2024 — bcrypt hash)
 INSERT INTO utilizadores (nome, email, password, role) VALUES
-('Administrador', 'admin@eletroguin.gw',
+('Administrador', 'admin@ceegb.gw',
  '$2a$12$M1/W/fK00SaSf1H.JJIBl.PzsVyMRZV1AcKRsJsybgErpCZHw7hCG', 'admin');
 
 -- Categorias
@@ -296,22 +296,22 @@ INSERT INTO noticias (titulo, slug, resumo, conteudo, destaque, data_publicacao,
 
 ('Workshop Regional sobre Energias Renováveis realizado em Bissau',
  'workshop-energias-renovaveis-bissau',
- 'O EnerConsult organizou um workshop com especialistas de 8 países da CEDEAO.',
+ 'O CEEGB organizou um workshop com especialistas de 8 países da CEDEAO.',
  'Reuniram-se em Bissau especialistas do setor energético provenientes de 8 países membros da CEDEAO para debater estratégias de integração das energias renováveis nos sistemas elétricos nacionais.',
  0, '2024-09-28', 1, 1),
 
 ('Novo relatório sobre o mercado de GNL na África Ocidental',
  'relatorio-gnl-africa-ocidental',
  'Publicamos um relatório abrangente sobre as oportunidades do GNL para a região.',
- 'O EnerConsult publicou um relatório técnico que mapeia as oportunidades de desenvolvimento do mercado de Gás Natural Liquefeito (GNL) na África Ocidental, com foco nos países sem litoral.',
+ 'O CEEGB publicou um relatório técnico que mapeia as oportunidades de desenvolvimento do mercado de Gás Natural Liquefeito (GNL) na África Ocidental, com foco nos países sem litoral.',
  0, '2024-09-10', 1, 1);
 
 -- Equipa
 INSERT INTO equipa (nome, cargo, bio, email, cor_avatar, ordem) VALUES
-('Dr. Amílcar Vaz',    'Director Executivo',             'Economista com 20 anos de experiência no setor energético africano. Ex-consultor do Banco Mundial.', 'amilcar@enerconsult.gw',  '#142240', 1),
-('Eng. Mamadú Baldé',  'Engenheiro Sénior — Eletricidade','Engenheiro eletrotécnico especializado em redes de distribuição e energias renováveis.',             'mamadu@enerconsult.gw',   '#1a4fa0', 2),
-('Dra. Fátima Sanhá',  'Especialista em Regulação',      'Jurista especializada em regulação energética e contratos de concessão.',                            'fatima@enerconsult.gw',   '#c8922a', 3),
-('Dr. Carlos Mendes',  'Consultor — Hidrocarbonetos',    'Geólogo com experiência em exploração petrolífera offshore na costa ocidental africana.',             'carlos@enerconsult.gw',   '#16a34a', 4);
+('Dr. Amílcar Vaz',    'Director Executivo',             'Economista com 20 anos de experiência no setor energético africano. Ex-consultor do Banco Mundial.', 'amilcar@ceegb.gw',  '#142240', 1),
+('Eng. Mamadú Baldé',  'Engenheiro Sénior — Eletricidade','Engenheiro eletrotécnico especializado em redes de distribuição e energias renováveis.',             'mamadu@ceegb.gw',   '#1a4fa0', 2),
+('Dra. Fátima Sanhá',  'Especialista em Regulação',      'Jurista especializada em regulação energética e contratos de concessão.',                            'fatima@ceegb.gw',   '#c8922a', 3),
+('Dr. Carlos Mendes',  'Consultor — Hidrocarbonetos',    'Geólogo com experiência em exploração petrolífera offshore na costa ocidental africana.',             'carlos@ceegb.gw',   '#16a34a', 4);
 
 -- Indicadores de Mercado
 INSERT INTO indicadores_mercado (nome, valor, unidade, descricao, icone, ordem) VALUES
@@ -322,5 +322,5 @@ INSERT INTO indicadores_mercado (nome, valor, unidade, descricao, icone, ordem) 
 
 -- Páginas CMS
 INSERT INTO paginas (slug, titulo, conteudo, meta_desc) VALUES
-('sobre',    'Sobre o EnerConsult', 'Gabinete de consultoria especializado em energia desde 2012.', 'Conheça o EnerConsult, gabinete de consultoria em energia na Guiné-Bissau.'),
-('missao',   'Missão e Valores',    'Apoiar a transição para sistemas energéticos mais sustentáveis.', 'Missão e valores do EnerConsult.');
+('sobre',    'Sobre o CEEGB', 'Gabinete de consultoria especializado em energia desde 2012.', 'Conheça o CEEGB, gabinete de consultoria em energia na Guiné-Bissau.'),
+('missao',   'Missão e Valores',    'Apoiar a transição para sistemas energéticos mais sustentáveis.', 'Missão e valores do CEEGB.');

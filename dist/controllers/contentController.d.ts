@@ -1,0 +1,25 @@
+import { Request, Response } from 'express';
+export declare function listarRelatorios(req: Request, res: Response): Promise<void>;
+export declare function criarRelatorio(req: Request, res: Response): Promise<void>;
+export declare function obterRelatorio(req: Request, res: Response): Promise<void>;
+export declare function atualizarRelatorio(req: Request, res: Response): Promise<void>;
+export declare function removerRelatorio(req: Request, res: Response): Promise<void>;
+export declare function incrementarDownload(req: Request, res: Response): Promise<void>;
+export declare function listarNoticias(req: Request, res: Response): Promise<void>;
+export declare function obterNoticia(req: Request, res: Response): Promise<void>;
+export declare function criarNoticia(req: Request, res: Response): Promise<void>;
+export declare function atualizarNoticia(req: Request, res: Response): Promise<void>;
+export declare function removerNoticia(req: Request, res: Response): Promise<void>;
+export declare function listarEquipa(req: Request, res: Response): Promise<void>;
+export declare function criarMembro(req: Request, res: Response): Promise<void>;
+export declare function atualizarMembro(req: Request, res: Response): Promise<void>;
+export declare function removerMembro(req: Request, res: Response): Promise<void>;
+export declare function listarMensagens(req: Request, res: Response): Promise<void>;
+export declare function criarMensagem(req: Request, res: Response): Promise<void>;
+export declare function marcarLida(req: Request, res: Response): Promise<void>;
+export declare function removerMensagem(req: Request, res: Response): Promise<void>;
+export declare function listarIndicadores(req: Request, res: Response): Promise<void>;
+export declare function atualizarIndicador(req: Request, res: Response): Promise<void>;
+export declare function listarCategorias(req: Request, res: Response): Promise<void>;
+export declare function dashboard(req: Request, res: Response): Promise<void>;
+//# sourceMappingURL=contentController.d.ts.map

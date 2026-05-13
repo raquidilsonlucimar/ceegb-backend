@@ -219,3 +219,12 @@
 {"level":"info","message":"🚀  Servidor:  http://localhost:3001","timestamp":"2026-05-05 12:10:40"}
 {"level":"info","message":"📁  Uploads:   http://localhost:3001/uploads","timestamp":"2026-05-05 12:10:40"}
 {"level":"info","message":"📚  API:       http://localhost:3001/api","timestamp":"2026-05-05 12:10:40"}
+{"level":"info","message":"✅  MySQL conectado com sucesso","timestamp":"2026-05-11 09:37:20"}
+{"level":"info","message":"🚀  Servidor:  http://localhost:3001","timestamp":"2026-05-11 09:37:20"}
+{"level":"info","message":"📁  Uploads:   http://localhost:3001/uploads","timestamp":"2026-05-11 09:37:20"}
+{"level":"info","message":"📚  API:       http://localhost:3001/api","timestamp":"2026-05-11 09:37:20"}
+{"level":"info","message":"Login: admin@eletroguin.gw (admin) primeiro_login=false","timestamp":"2026-05-11 10:44:30"}
+{"level":"info","message":"✅  MySQL conectado com sucesso","timestamp":"2026-05-13 08:39:42"}
+{"level":"info","message":"🚀  Servidor:  http://localhost:3001","timestamp":"2026-05-13 08:39:42"}
+{"level":"info","message":"📁  Uploads:   http://localhost:3001/uploads","timestamp":"2026-05-13 08:39:42"}
+{"level":"info","message":"📚  API:       http://localhost:3001/api","timestamp":"2026-05-13 08:39:42"}
