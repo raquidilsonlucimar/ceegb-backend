@@ -228,3 +228,7 @@
 {"level":"info","message":"🚀  Servidor:  http://localhost:3001","timestamp":"2026-05-13 08:39:42"}
 {"level":"info","message":"📁  Uploads:   http://localhost:3001/uploads","timestamp":"2026-05-13 08:39:42"}
 {"level":"info","message":"📚  API:       http://localhost:3001/api","timestamp":"2026-05-13 08:39:42"}
+{"level":"info","message":"✅  MySQL conectado com sucesso","timestamp":"2026-05-13 09:37:54"}
+{"level":"info","message":"🚀  Servidor:  http://localhost:3001","timestamp":"2026-05-13 09:37:54"}
+{"level":"info","message":"📁  Uploads:   http://localhost:3001/uploads","timestamp":"2026-05-13 09:37:54"}
+{"level":"info","message":"📚  API:       http://localhost:3001/api","timestamp":"2026-05-13 09:37:54"}

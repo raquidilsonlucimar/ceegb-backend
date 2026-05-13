@@ -285,21 +285,21 @@ export default app;
 
 // ── Express Request augmentation ─────────────────────────────
 // Permite usar req.user em todos os controllers sem erro TS
-// declare global {
-//   namespace Express {
-//     interface Request {
-//       user?: JwtPayload;
-//     }
-//   }
-// }
-
-declare namespace Express {
-  export interface Request {
-    user?: {
-      id: number;
-      email: string;
-      role: string;
-      primeiro_login?: boolean;
-    };
+declare global {
+  namespace Express {
+    interface Request {
+      user?: JwtPayload;
+    }
   }
 }
+
+// declare namespace Express {
+//   export interface Request {
+//     user?: {
+//       id: number;
+//       email: string;
+//       role: string;
+//       primeiro_login?: boolean;
+//     };
+//   }
+// }
