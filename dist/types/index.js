@@ -67,4 +67,14 @@ main().catch((err) => {
     process.exit(1);
 });
 exports.default = app;
+// declare namespace Express {
+//   export interface Request {
+//     user?: {
+//       id: number;
+//       email: string;
+//       role: string;
+//       primeiro_login?: boolean;
+//     };
+//   }
+// }
 //# sourceMappingURL=index.js.map
